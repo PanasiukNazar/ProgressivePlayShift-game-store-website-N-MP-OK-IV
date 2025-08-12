@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Progressive Play Shift</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            name="keywords"
+            content="PC games, console games, new releases, game deals, digital downloads, physical copies, PS5 games, Xbox Series X, Nintendo Switch, PC RPGs, FPS, adventure games, indie titles, pre-orders, collector's editions, multiplayer games, game sales"
+        />
+        <meta
+            name="description"
+            content="Official online store for PC and console games — discover new releases, bestsellers, exclusive deals and pre-order bonuses. Fast digital downloads and shipped physical editions for PC, PS5, Xbox Series X|S and Nintendo Switch. Browse RPGs, shooters, sports titles, indie hits and collector’s bundles."
+        />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Header Start -->
+        <header class="bg-white shadow-sm" contenteditable="false">
+            <div
+                class="container py-3 d-flex flex-column flex-lg-row justify-content-between align-items-center"
+            >
+                <a
+                    href="#"
+                    class="d-flex align-items-center text-decoration-none mb-2 mb-lg-0"
+                >
+                    <h1 class="m-0">
+                        <span class="text-primary fw-bold"
+                            >ProgressivePlayShift</span
+                        >
+                    </h1>
+                </a>
+                <div class="text-center text-lg-right">
+                    <p class="m-0 small text-muted">Customer Support</p>
+                    <h6 class="m-0 fw-bold text-dark">+61 413 303 993</h6>
+                </div>
+            </div>
+
+            <nav
+                class="navbar navbar-expand-lg navbar-light bg-light border-top border-bottom"
+            >
+                <div class="container">
+                    <a
+                        href="#"
+                        class="navbar-brand d-lg-none fw-bold text-dark"
+                    >
+                        Interactive<span class="text-primary">Win</span>Plan
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#mainNavbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse justify-content-between"
+                        id="mainNavbar"
+                    >
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html"
+                                    >About Us</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="shop.html">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-center">
+                            <a
+                                href="favorite.html"
+                                class="btn btn-link position-relative me-3"
+                                aria-label="Favorites"
+                            >
+                                <i class="fas fa-heart text-primary fs-5"></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+                                    data-store-el="favoriteProductsCounter"
+                                    >0</span
+                                >
+                            </a>
+                            <a
+                                href="cart.html"
+                                class="btn btn-link position-relative"
+                                aria-label="Cart"
+                            >
+                                <i
+                                    class="fas fa-shopping-cart text-primary fs-5"
+                                ></i>
+                                <span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-secondary"
+                                    data-store-el="cartItemsCounter"
+                                    >0</span
+                                >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Header End -->
+
+        <!-- Breadcrumb Start -->
+        <div class="container-fluid">
+            <div class="row px-xl-5">
+                <div class="col-12">
+                    <nav
+                        class="breadcrumb bg-light mb-30"
+                        style="border-radius: 5px; padding: 10px"
+                    >
+                        <a class="breadcrumb-item text-dark" href="#">Home</a>
+                        <span class="breadcrumb-item active"
+                            >Secure Checkout</span
+                        >
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+
+        <!-- Checkout Start -->
+        <div class="container-fluid">
+            <div class="row px-xl-5">
+                <!-- Billing Address Form -->
+                <div class="col-lg-8">
+                    <h5
+                        class="section-title position-relative text-uppercase mb-3"
+                    >
+                        <span
+                            class="bg-secondary pr-3"
+                            style="color: red; padding: 5px 10px"
+                            >Checkout Details</span
+                        >
+                    </h5>
+                    <p style="font-size: 14px; color: #555">
+                        Complete your details below to get your PC and console
+                        games delivered instantly or shipped to your door.
+                    </p>
+                    <div class="bg-light p-30 mb-5" style="border-radius: 8px">
+                        <form class="row" method="GET" action="thanks.html">
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >First Name<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <input
+                                    type="text"
+                                    name="firstName"
+                                    class="form-control"
+                                    placeholder="John"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >Last Name<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <input
+                                    type="text"
+                                    name="lastName"
+                                    class="form-control"
+                                    placeholder="Smith"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >Email Address<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <input
+                                    type="email"
+                                    name="email"
+                                    class="form-control"
+                                    placeholder="you@example.com"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >Phone Number<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <input
+                                    type="tel"
+                                    name="phone"
+                                    class="form-control"
+                                    placeholder="+1 555 123 4567"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >Region<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <select
+                                    name="region"
+                                    id="region"
+                                    class="custom-select"
+                                    required
+                                >
+                                    <option value="default" selected>
+                                        Select Your Region
+                                    </option>
+                                    <option value="north">North</option>
+                                    <option value="central">Central</option>
+                                    <option value="south">South</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label
+                                    >Address Line 1<span class="text-danger"
+                                        >*</span
+                                    ></label
+                                >
+                                <input
+                                    type="text"
+                                    name="address1"
+                                    class="form-control"
+                                    placeholder="Street address, P.O. box"
+                                    required
+                                />
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <label>Address Line 2</label>
+                                <input
+                                    type="text"
+                                    name="address2"
+                                    class="form-control"
+                                    placeholder="Apartment, suite, unit, etc."
+                                />
+                            </div>
+
+                            <!-- Submit button full width -->
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary py-4 px-lg-5 d-lg-block"
+                                    type="submit"
+                                    data-store-el="cartEmptyDisabled"
+                                    style="font-size: 16px"
+                                >
+                                    Confirm & Place Order
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Order Summary and Payment -->
+                <div class="col-lg-4">
+                    <!-- Order Summary -->
+                    <h5
+                        class="section-title position-relative text-uppercase mb-3"
+                    >
+                        <span
+                            class="bg-secondary pr-3"
+                            style="color: red; padding: 5px 10px"
+                            >Your Game Order</span
+                        >
+                    </h5>
+                    <div class="bg-light p-30 mb-5" style="border-radius: 8px">
+                        <ul class="list-unstyled mb-0">
+                            <li class="d-flex justify-content-between mb-2">
+                                <strong>Total</strong>
+                                <span
+                                    ><span data-store-el="cartTotal">0</span
+                                    >$</span
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Payment Method -->
+                    <h5
+                        class="section-title position-relative text-uppercase mb-3"
+                    >
+                        <span
+                            class="bg-secondary pr-3"
+                            style="color: red; padding: 5px 10px"
+                            >Select Payment</span
+                        >
+                    </h5>
+                    <div class="bg-light p-30" style="border-radius: 8px">
+                        <div class="form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input
+                                    type="checkbox"
+                                    class="custom-control-input"
+                                    id="payment-cod"
+                                    name="paymentMethod"
+                                />
+                                <label
+                                    class="custom-control-label"
+                                    for="payment-cod"
+                                >
+                                    Pay on Delivery
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Checkout End -->
+
+        <!-- Footer Start -->
+        <footer class="bg-dark text-light pt-5 pb-4" contenteditable="false">
+            <div class="container">
+                <div class="row gy-5">
+                    <!-- Contact Info -->
+                    <div class="col-lg-4">
+                        <h5 class="text-uppercase mb-4">Get in Touch</h5>
+                        <p class="mb-3">
+                            ProgressivePlayShift is your specialist store for PC
+                            and console games — digital keys, physical editions,
+                            and curated bundles for every player.
+                        </p>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-2"
+                            ></i>
+                            38 Fossickers Way, Warrandyte VIC 3113, Australia
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-2"></i>
+                            progressive_play_shift@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa fa-phone-alt text-primary me-2"></i>
+                            +61 413 303 993
+                        </p>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="text-uppercase mb-4">Quick Access</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="favorite.html"
+                                    >Wishlist</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="cookie-policy.html"
+                                    >Cookie Policy</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="privacy-policy.html"
+                                    >Privacy</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="terms-of-use.html"
+                                    >Terms</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- My Account -->
+                    <div class="col-lg-2 col-md-4">
+                        <h6 class="text-uppercase mb-4">My Account</h6>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="index.html"
+                                    >Home</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="shop.html"
+                                    >Store</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="cart.html"
+                                    >Cart</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="checkout.html"
+                                    >Checkout</a
+                                >
+                            </li>
+                            <li>
+                                <a
+                                    class="text-secondary text-decoration-none"
+                                    href="contact.html"
+                                    >Support</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter and Socials -->
+                    <div class="col-lg-4 col-md-4">
+                        <h6 class="text-uppercase mb-4">Subscribe</h6>
+                        <p>
+                            Sign up for exclusive drops, flash sales, and early
+                            access to new releases across PC and consoles.
+                        </p>
+                        <form action="thanks.html" method="get" class="mb-3">
+                            <div class="input-group">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Enter your email"
+                                    required
+                                />
+                                <button class="btn btn-primary" type="submit">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+                        <h6 class="text-uppercase mb-3">Follow</h6>
+                        <div class="d-flex gap-2">
+                            <a
+                                class="btn btn-outline-light btn-sm rounded-circle"
+                                href="https://twitter.com/"
+                                target="_blank"
+                                aria-label="Twitter"
+                                ><i class="fab fa-twitter"></i
+                            ></a>
+                            <a
+                                class="btn btn-outline-light btn-sm rounded-circle"
+                                href="https://facebook.com/"
+                                target="_blank"
+                                aria-label="Facebook"
+                                ><i class="fab fa-facebook-f"></i
+                            ></a>
+                            <a
+                                class="btn btn-outline-light btn-sm rounded-circle"
+                                href="https://linkedin.com/company/"
+                                target="_blank"
+                                aria-label="LinkedIn"
+                                ><i class="fab fa-linkedin-in"></i
+                            ></a>
+                            <a
+                                class="btn btn-outline-light btn-sm rounded-circle"
+                                href="https://instagram.com/"
+                                target="_blank"
+                                aria-label="Instagram"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer End -->
+
+        <!-- Cookie Banner -->
+        <div class="cookie-wrapper show" contenteditable="false">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Notice</h2>
+            </div>
+            <div class="data">
+                <p>
+                    This site uses cookies to improve your shopping experience
+                    in our PC & console games store.
+                    <a href="cookie-policy.html">Read our cookie policy</a>
+                </p>
+            </div>
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- Cookie Banner End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary back-to-top"
+            ><i class="fa fa-angle-double-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/store.js"></script>
+        <script src="js/cookiebanner.js"></script>
+        <script src="products.js"></script>
+    </body>
+</html>
